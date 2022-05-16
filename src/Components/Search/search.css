@@ -1,0 +1,35 @@
+.big{
+    color: rgba(255, 255, 255, 0.757);
+    text-shadow: 1px 2px 5px rgb(255 255 255 / 60%);
+    font-family: 'Henny Penny', cursive;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+input{
+    color: rgb(255, 255, 255) !important;
+    font-family: 'Cinzel Decorative', cursive;
+    width: 40%;
+    border-radius: 8px;
+    background-color: transparent;
+    padding: 10px 15px;
+    box-shadow: 1px 3px 9px rgba(255, 255, 255, 0.6); 
+}
+input :focus{
+    border-width: 2px;
+    border-style:none;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+}
+
+.btn1{
+    color: rgb(236, 23, 23) !important;
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 1px 3px 9px rgba(255, 255, 255, 0.6);
+    font-family: 'Monserrat', cursive;
+}
+::placeholder{
+    color: rgb(78, 78, 78);
+    font-size: 19px;
+    text-shadow: 1px 1px 9px rgba(255, 20, 20, 0.6);
+    font-family: 'Kaushan Script', cursive;
+}

@@ -1,0 +1,60 @@
+a{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #ff0019;
+    text-decoration: none;
+    font-family: 'Cinzel Decorative', cursive;
+}
+a:hover{
+    color: #ffffff;
+}
+a:focus{
+    color: #ff0000;
+    text-shadow: 1px 3px 3px rgba(255, 255, 255, 0.452) !important;
+}
+
+a:not([href]):not([className]), a:not([href]):not([className]):hover {
+    color: red;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.btn {
+    box-shadow: 3px 5px 9px 1px rgba(255, 255, 255, 0.452) !important;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: rgb(255, 255, 255);
+    background-color: #fd0d0d;
+    border-color: #fd0d0d;
+    text-shadow: 1px 5px 9px  rgba(0, 0, 0, 0.452) !important;;
+    box-shadow: 1px 5px 9px  rgba(255, 0, 0, 0.452) !important;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    font-weight: bolder;
+    color: #fd0d0d;
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    box-shadow: 1px 5px 9px  rgba(255, 255, 255, 0.452) !important;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.page-link:hover{
+    color: rgb(255, 255, 255)!important;
+    font-weight: bolder;
+    background-color: #ff0019;
+    border: 2px solid black;
+}
+p{
+    border-top: 2px solid rgba(255, 255, 255, 0.351);;
+    font-size: 12px;
+    box-shadow: -5px 3px 3px rgba(255, 255, 255, 0.351);
+    font-family: 'Cinzel Decorative', cursive
+}

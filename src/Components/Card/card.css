@@ -1,0 +1,94 @@
+.cards{
+    
+    height:fit-content;
+    background-color: rgba(223, 223, 223, 0.115);
+    border-radius: 20px;
+    box-shadow: 3px 5px 9px 1px rgba(255, 255, 255, 0.452);
+}
+.content{
+    padding: 15px;
+}
+.img{
+    width: 180px; 
+    margin-top: 5px;
+    border-radius: 50%;
+    border: 2px solid rgb(0, 0, 0);   
+     
+}
+.badgeAlive{
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    line-height: 1;
+    color: rgb(0, 0, 0);
+    background-color: #00ff22;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    font-family: 'Ewert', cursive;
+  
+}
+
+.badgeUnknown{
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    line-height: 1;
+    color: rgb(0, 0, 0);
+    background-color: #828988;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    font-family: 'Ewert', cursive;
+}
+
+.badgeDead{
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    line-height: 1;
+    color: rgb(0, 0, 0);
+    background-color: #ff0000;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    font-family: 'Ewert', cursive;
+
+    
+}
+.name{
+    margin-top: 5px;
+    font-size: 20px !important;
+    color: rgba(255, 255, 255, 0.757);
+    text-shadow: 1px 1px 3px rgba(255, 0, 0, 0.6);
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: bolder;
+}
+.origin{
+    font-weight: bolder;
+    text-align: center;
+    padding: 5px;
+    font-size: 15px !important;
+    color: rgb(248, 219, 219);
+    text-shadow: 1px 3px 8px rgb(255, 0, 0);
+    font-family: 'Cinzel Decorative', cursive;
+}
+.origin-1{
+    font-weight:bolder;
+    text-align: center;
+    font-size: 18px !important;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 5px 9px  rgb(0, 0, 0);
+    font-family: 'Kaushan Script', cursive;
+}
+
+

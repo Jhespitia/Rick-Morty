@@ -1,0 +1,23 @@
+:root{
+  --primary: rgba(0, 0, 0, 0.903);
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(140deg, var(--primary), var(--primary)),
+              url('../src/Images/bg1.jpg') center center / cover;
+}
+
+.App {
+  color: #ff0019;
+  text-align: center;
+}
+
+.ubuntu{
+  font-family: 'Ubuntu';
+}
+

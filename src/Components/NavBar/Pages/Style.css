@@ -1,0 +1,48 @@
+.title{
+    color: red!important;
+    font-size: 30px;
+    text-shadow: 1px 2px 5px rgba(255, 255, 255, 0.6);
+    font-family: 'Cinzel Decorative', cursive;
+}
+.Epi{
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.757);;
+    text-shadow: 1px 2px 5px rgba(255, 255, 255, 0.6);
+    font-family: 'Henny Penny', cursive;
+}
+
+h5{
+    color: white;
+    font-family: 'Cinzel Decorative', cursive !important;
+}
+h4{
+    color: rgb(255, 255, 255);
+    font-family: 'Henny Penny', cursive;
+    text-shadow: 1px 2px 5px rgba(255, 255, 255, 0.6);
+}
+
+.form-select {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border-color: red;
+    font-family: 'Cinzel Decorative', cursive;
+}
+.input-group>.form-control, .input-group>.form-select {
+   box-shadow: none;
+   border-color: red;
+}
+.label{
+    text-align: center;
+    font-family: Monserrat;
+    color: red;
+    text-shadow: 1px 2px 5px rgba(251, 149, 149, 0.6);
+}
+
+.type, .dimension, .residents, .air{
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    text-shadow: 1px 2px 5px rgba(255, 255, 255, 0.6);
+}
+
+
+

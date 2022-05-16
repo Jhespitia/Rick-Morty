@@ -1,0 +1,81 @@
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+    color: #ff0109;
+    background-color: rgba(0, 0, 0, 0.89);
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    box-shadow: 3px 5px 9px 1px rgba(255, 255, 255, 0.452);
+    font-family: 'Kaushan Script';
+    
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #ff0000;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(253 13 13 / 25%);
+}
+
+.accordion-button:not(.collapsed) {
+    color: #ff0019;
+    background-color: rgba(0, 0, 0, 0.89);
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.accordion-button:focus {
+    z-index: 3;
+
+    background-color: rgba(0, 0, 0, 0.89);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(253, 13, 13, 0.25);
+}
+
+.accordion-button:not(.collapsed)::after {
+    color: #ff0019 !important;
+    
+}
+.accordion-body {
+    background-color: rgba(0, 0, 0, 0.89);
+    padding: 1rem 1.25rem;
+    
+}
+
+.fl{
+    color: #ff0019;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.btn-danger {
+    margin-bottom: 10px;
+    color: rgb(255, 0, 0);
+    background-color: transparent;
+    border-color: transparent;
+    
+}
+
+.btn-danger:hover {
+    color: rgb(255, 255, 255);
+    background-color: #ff0019;
+    border-color: #ff0019;
+}
+.x:checked + label {
+    font-weight: bolder;
+    background-color: #ff0019;
+    color: rgb(255, 255, 255) !important;
+    box-shadow: 1px 5px 9px  rgba(255, 0, 0, 0.452) !important;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.accordion-button::after {
+    background-image: url(../../Images/ad.png);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../../Images/au.png);
+    transform: rotate(360deg);
+}
+

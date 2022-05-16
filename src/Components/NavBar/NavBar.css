@@ -1,0 +1,35 @@
+.logo{
+  color: #ff0019 !important;
+  text-shadow: 1px 5px 9px rgba(255, 255, 255, 0.671);
+  font-family: 'Cinzel Decorative', cursive;
+
+}
+
+.text{
+  color: rgba(255, 227, 227, 0.792);;
+  text-shadow: 1px 5px 9px rgba(255, 255, 255, 0.671);
+  font-family: 'Kaushan Script', cursive;
+  
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.351) !important;
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.351);
+    margin-bottom: 20px;
+}
+.nav-link{
+ color: #ff0019!important;
+ font-family: 'Cinzel Decorative', cursive;
+}
+
+.nav-link.active{
+    font-size:18px;
+    color: rgb(255, 255, 255)!important;
+    text-shadow: 3px 3px 3px rgba(255, 0, 0, 0.578);
+    border-bottom: 2px solid #ff0019;
+}
+span.icon{   
+    width: 2px;
+}
+button.bt{
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.351);
+}
